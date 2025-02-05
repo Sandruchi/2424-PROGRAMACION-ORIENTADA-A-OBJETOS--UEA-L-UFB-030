@@ -32,7 +32,9 @@ def mostrar_menu():
 
     unidades = {
         '1': 'Unidad 1',
-        '2': 'Unidad 2'
+        '2': 'Unidad 2',
+        '3': 'Unidad 3',
+        '4': 'Unidad 4'
     }
 
     while True:
@@ -113,4 +115,3 @@ def mostrar_scripts(ruta_sub_carpeta):
 # Ejecutar el dashboard
 if __name__ == "__main__":
     mostrar_menu()
-
